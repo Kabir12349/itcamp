@@ -1,0 +1,36 @@
+.divthing{
+    width: 100px;
+    height: 100px;
+    margin-top:200px;
+    background-color: red;
+    animation-name: animation;
+    position: relative;
+    animation-duration: 10s;
+    animation-direction: left; 
+    animation: animation 10s linear infinite;
+  
+   
+    }
+    @keyframes animation {
+    0%   {background-color:red; left:400px; }
+    25%  {background-color:yellow; left:500px ; }
+    50%  {background-color:blue;left: 700px; }
+    75%  {background-color:green;left: 800px; }
+    100% {background-color:red;left:900px; }
+  }
+  .levitate:hover{
+    padding: 10px 20px;
+    background-color: #34db7a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.levitating-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+  

@@ -1,0 +1,21 @@
+.divthing{width:600px;
+height:600px;
+border-radius:50%;
+background-color: #ff0000;
+position: absolute;
+margin-left: 200px;
+}
+@keyframes rotacija {
+    50%  {width:600px;
+    height:600px;}
+}
+
+@keyframes  animation {
+    0%   {background-color:red; left:0px; bottom:300px;}
+    25%  {background-color:yellow; left:0px; bottom:300px;}
+    50%  {background-color:blue; left:0px; bottom:200px;}
+    75%  {background-color:green; left:0px; bottom:100px;}
+    100% {background-color:red; left:0px; bottom:300px;}
+  }
+  
+  
